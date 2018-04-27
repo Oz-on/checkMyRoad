@@ -1,0 +1,17 @@
+{
+  "name": "checkmyroad",
+  "version": "1.0.0",
+  "description": "REST API that will be used by Android app. Created for the contest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oskar Domingos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.7"
+  }
+}
